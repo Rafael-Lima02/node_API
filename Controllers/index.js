@@ -112,6 +112,6 @@ app.get('/cotacoes/:cot', (req,resp) => { //parametros: dolar | euro | btc
     resp.send(arrayBTC);
 });
 app.listen(port, ()=>{
-    console.info("Aplicação rodando em http://localhost:3000")
+    console.info("Aplicação rodando em: http://localhost:3000")
 });
 
